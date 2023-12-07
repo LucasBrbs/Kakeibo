@@ -8,6 +8,7 @@
 import Foundation
 
 struct constantIncome: dataEntryOfMoneyPattern {
+    
     var name: String
     
     var Value: Double

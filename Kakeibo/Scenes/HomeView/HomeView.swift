@@ -20,8 +20,10 @@ class HomeView: UIView {
     }
     
     override func layoutSubviews() {
+        buildLayout()
         super.layoutSubviews()
         backgroundColor = UIColor.blue
+        
     }
     
 }

@@ -10,6 +10,7 @@ import Foundation
 extension HomeView: ViewCodeProtocol {
     func buildViewHierarchy() {
         printd("hierarchy working")
+        print("ä")
     }
     
     func setupConstraints() {

@@ -12,3 +12,11 @@ public protocol ViewCodeProtocol {
     func setupConstraints()
     func configureView()
 }
+
+extension ViewCodeProtocol {
+    func buildLayout(){
+        buildViewHierarchy()
+        setupConstraints()
+        configureView()
+    }
+}
